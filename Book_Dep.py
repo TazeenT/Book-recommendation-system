@@ -7,16 +7,12 @@ import pickle
 import numpy as np
 import gzip
 
-# MUST be first Streamlit command
+#Streamlit command
 st.set_page_config(page_title="Book Recommender", layout="wide")
 
 # Absolute paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
-
-# Debug (remove after confirming)
-st.write("MODEL DIR:", MODEL_DIR)
-st.write("FILES FOUND:", os.listdir(MODEL_DIR))
 
 # Load models
 books_path = os.path.join(MODEL_DIR, "books.pkl.gz")
