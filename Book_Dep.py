@@ -12,7 +12,7 @@ st.set_page_config(page_title="Book Recommender", layout="wide")
 
 # Absolute paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, "model")
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 # Debug (remove after confirming)
 st.write("MODEL DIR:", MODEL_DIR)
