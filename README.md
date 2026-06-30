@@ -1,4 +1,5 @@
 # Book Recommendation System
+**Live Demo:** https://the-book-recommendation-system.streamlit.app/
 
 A **Book Recommendation System** built using Python and data science techniques to suggest books based on user preferences and past reading history.  
 This project demonstrates data preprocessing, similarity computation, and recommendation algorithms.
